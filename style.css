@@ -1,0 +1,36 @@
+.img-container{
+    width: 100%;
+}
+.tech-wrapper{
+    display:flex;
+    justify-content: center;
+    background: #eef11d;
+    border-radius: 10px ;
+    padding: 10px;
+    cursor: pointer;
+}
+.tech-wrapper .logo{
+    width: 50%;
+}
+.tech-wrapper .logo img{
+    width: 100%;
+}
+.tech-wrapper .name{
+    display:grid;
+    align-content: center;
+    width: 50%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.introduce{
+   display:grid ;
+   align-content: center; 
+   background: #3ef2ec
+}
+.introduce-text{
+    font-size: 35px ;
+
+}
+.tech-wrapper:hover{
+    box-shadow: 5px 5px #a8a8a8;
+}
